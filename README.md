@@ -8,9 +8,11 @@ This is the second project of the Software Engineering program at TripleTen. It 
 - Flexbox
 - Positioning
 - Flat BEM file structure
-- A custom form
+- A custom form for user input and required fields
 - CSS animation and transform
+- Embedded media
+- Git/Github utilization and familiarity
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- It would have been good to require the need to step the increments in the date/time field in the form. It also makes sense to restrict the time input for reservations to 5 to 15 min intervals. As is, the user has to either type the time, or scroll through each minute individually to set the time.
