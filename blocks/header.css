@@ -8,6 +8,8 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  z-index: 1;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -31,7 +33,7 @@
 .header__description {
   max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
 }
@@ -42,7 +44,7 @@
   position: absolute;
   margin: 0;
   padding: 0;
-  z-index: 1;
+  z-index: -1;
   top: 124px;
   right: 5px;
 }
